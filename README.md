@@ -1,3 +1,19 @@
+## 个人维护入口（2026-10-29）
+
+本仓是 `gongfuxiang/shopxo-uniapp` 的个人副本，保留 ShopXO 上游署名、说明与 `LICENSE`。本仓承载 uni-app 移动端页面和组件，业务数据由对应 ShopXO 服务端提供；不能将本仓单独运行等同于完整商城上线或个人原创开发。
+
+当前能力、启动条件和验证边界以 [工程基线](docs/engineering-baseline.md) 为准。后文保留原有项目介绍和上游署名；其中宣传性描述不代表本副本已经完成运行验收。
+
+- [开发约定](AGENTS.md)
+- [OpenSpec 使用流程](openspec/README.md)
+- [核心行为基线](openspec/specs/)
+
+最短启动路径：准备独立 ShopXO 测试后端，用 HBuilderX 导入本仓，核对自己的请求/静态资源地址，然后运行到目标平台。根 package.json 没有 npm scripts；本次未做平台编译或业务验收。
+
+本次仅补文档与规范，没有改变业务实现，也没有部署服务。
+
+---
+
 <p align="center">
 <img src="https://shopxoserver.oss-cn-beijing.aliyuncs.com/demo/system/logo.jpg" width="360" />
 </p>
